@@ -294,7 +294,7 @@ window.requestAnimFrame = function () {
     }
   
     var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "https://www.youtube.com/embed/ARopnmXPkI8?si=44V_hjlhZ0aRPTRV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin");
+    ifrm.setAttribute("src", "https://www.youtube.com/embed/ARopnmXPkI8?si=44V_hjlhZ0aRPTRV");
     //ifrm.style.width = `${w}px`;
     //ifrm.style.height = `${h}px`;
     ifrm.style.border = 'none';
